@@ -13,13 +13,16 @@ array.reverse
 end
 using_reverse(["I", "love", "you"])
 def using_first(array)
-
+array.first
 end
+using_first([1,2,3,4,5])
 
 def using_last(array)
-
+array.last
 end
+using_last("a","b","c","d")
 
 def using_size(array)
-
+array.size
 end
+using_size("a","A","v","c")
