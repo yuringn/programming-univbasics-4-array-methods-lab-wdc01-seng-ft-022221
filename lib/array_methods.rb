@@ -9,9 +9,9 @@ end
 using_sort(["a","c","w","b"])
 
 def using_reverse(array)
-
+array.reverse
 end
-
+using_reverse(["I", "love", "you"])
 def using_first(array)
 
 end
